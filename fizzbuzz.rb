@@ -2,17 +2,13 @@
 # See README.md for instructions on how to do thi
 
 def fizzbuzz( num )
-    if( num == 3 )
+    if( num % 3 == 0 && num % 5 == 0 )
+        return "FizzBuzz"
+    elsif( num % 3 == 0 )
         return "Fizz";
-    end
-    if( num == 4 )
+    elsif( num % 5 == 0 )
+        return "Buzz"
+    else
         return nil
     end
-    if( num == 5 )
-        return "Buzz"
-    end
-    if( num == 15 )
-        return "FizzBuzz"
-    end
-    
 end
