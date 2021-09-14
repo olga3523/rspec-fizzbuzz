@@ -4,11 +4,15 @@
 def fizzbuzz( num )
     if( num == 3 )
         return "Fizz";
-    elsif( num == 4 )
+    end
+    if( num == 4 )
         return nil
-    elsif( num == 5 )
+    end
+    if( num == 5 )
         return "Buzz"
-    elsif( num == 15 )
+    end
+    if( num == 15 )
         return "FizzBuzz"
     end
+    
 end
